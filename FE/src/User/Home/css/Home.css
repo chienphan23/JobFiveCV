@@ -1,0 +1,156 @@
+* {
+  scroll-behavior: smooth;
+}
+p {
+  display: inline !important;
+}
+.active-nav {
+  /* font-size: 20px; */
+  font-weight: bold;
+}
+.default-background {
+  background-color: #f3f5f7;
+}
+.main-background {
+  background-color: #7ed9e7;
+}
+.white-background {
+  background-color: #fff;
+}
+.main-background-bold {
+  background-color: #17a2b8;
+}
+.main-color-bold {
+  color: #17a2b8 !important;
+}
+.main-color {
+  color: #7ed9e7;
+}
+.outline-input:focus {
+  border-color: #17a2b8;
+  box-shadow: inset 0 0.5px 0.5px rgba(0, 0, 0, 0.075), 0 0 4px #17a2b8;
+}
+
+.padding-select {
+  padding: 8px 12px !important;
+}
+
+.section-main {
+  padding: 48px 0;
+}
+
+.border-select {
+  border: 0.5px solid rgba(23, 162, 184, 0.4);
+}
+.border-main {
+  border: 0.5px solid rgba(23, 162, 184, 0.4);
+  border-radius: 6px;
+}
+.background-card {
+  background-color: rgba(222, 247, 250, 0.6);
+}
+
+.row-gap {
+  row-gap: 16px;
+}
+.react-datepicker__input-container {
+  width: inherit;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.backgound-setup {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+/* Hoang css */
+.box-header {
+  padding: 45px;
+  text-align: center;
+}
+
+.box-header h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  margin: 0;
+}
+
+.box-header p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.profile-edit-btn {
+  border: none;
+  border-radius: 1.5rem;
+  width: 70%;
+  padding: 2%;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+}
+button.main-background:hover {
+  background-color: #3ac7dc;
+}
+
+.line-clamp {
+  display: -webkit-box !important;
+  -webkit-line-clamp: var(--line-claim, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.card-hover:hover {
+  outline: 0.5px solid #7ed9e7;
+  /* background-color: rgba(248, 250, 250, 0.5) !important; */
+}
+.card-hover:hover p:first-child {
+  color: #17a2b8;
+}
+.card-hover:hover p:nth-child(2) {
+  color: black !important;
+}
+
+/* Quoc css */
+.linear-background {
+  background-image: linear-gradient(-90deg, #67c6d8, #316a78);
+}
+
+.employer-card:hover,
+.industry-card:hover {
+  border: 1px solid #7ed9e7 !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 36px;
+}
+
+.job-filter:hover {
+  border: 1px solid #7ed9e7 !important;
+}
+
+.btn-delete:focus,
+.btn-delete:active,
+.btn-upload:focus,
+.btn-upload:active,
+.btn-bell:focus,
+.btn-bell:active {
+  outline: none !important;
+  box-shadow: none;
+}

@@ -1,0 +1,8 @@
+.padding-card {
+    padding: 20px 24px;
+}
+.hover-remove:hover {
+    background-color: #01303766;
+    color: rgb(205, 253, 253);
+    border-radius: 50%;
+}
